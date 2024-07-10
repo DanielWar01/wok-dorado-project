@@ -9,7 +9,7 @@ export const linksHome : LinkType[] = [
     },
     {
         name: "Menu",
-        path: "/order",
+        path: "/order/rice",
         icon: faList
     },
     {

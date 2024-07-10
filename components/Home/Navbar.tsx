@@ -3,6 +3,7 @@ import { useState } from "react"
 import Sidebar from "./Sidebar"
 import { LinkType } from "@/Types"
 import Link from "next/link"
+import Image from "next/image"
 
 
 type NavbarProps = {
@@ -17,7 +18,7 @@ export default function Navbar( {links, pathname} : NavbarProps ) {
         <div className="navbar h-32 bg-black shadow-lg flex justify-around items-center z-50">
             
             <Link href="/">
-                <img className="animate__animated animate__bounceInDown h-32" src="logo.jpg" alt="logo-wok-dorado" />
+                <Image width={128} height={128} className="animate__animated animate__bounceInDown " src="/logo.jpg" alt="logo-wok-dorado" />
             </Link>
             <div className="nav-links flex gap-20 items-center text-xl text-white uppercase font-light">
                 {links.map( link => (

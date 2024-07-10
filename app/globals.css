@@ -118,10 +118,6 @@
     transition: all .2s ease-in-out;
 }
 
-.orderSidebar-active{
-    width: 100px;
-}
-
 .btn-about:hover{
     box-shadow: 15px 15px 25px rgba(0,0,0,0.25),
                 10px 10px 20px rgba(0,0,0,0.25),
@@ -217,3 +213,106 @@
 .whatsapp:hover{
     color: #25d366;
 }
+
+.link-category::after{
+    content: "";
+    width: .4rem;
+    height: 0;
+    background-color: #000;
+    position: absolute;
+    left: 0;
+    top: 50%;
+    transform: translateY(-50%);
+    transition: all .2s ease-in;
+}
+
+.card:hover{
+    transform: scale(1.01);
+}
+
+.info-product:hover .description {
+    height: auto;
+}
+
+.info-product .description {
+    max-height: 0;
+    overflow: hidden;
+    transition: all 0.5s ease-in-out;
+}
+
+.info-product:hover .description {
+    max-height: 500px;
+}
+
+.btn-add:hover .icon-add{
+    left: 70%;
+    opacity: 1;
+    transform: rotate(180deg) translateY(50%);
+}
+
+@font-face {
+    font-family: "fontChinese";
+    src: url('/fonts/CHINESETAKEAWAY.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+.title-menu{
+    font-family: 'fontChinese', sans-serif;
+    letter-spacing: 0.1em;
+}
+
+.custom-checkbox {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    position: relative;
+    padding-left: 25px; /* Espacio para el checkbox */
+}
+
+.custom-checkbox::before {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 20px;
+    height: 20px;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    background-color: white;
+    transition: background-color 0.3s, border-color 0.3s;
+}
+
+input[type="checkbox"] {
+    display: none; /* Oculta el checkbox original */
+}
+
+input[type="checkbox"]:checked + .custom-checkbox::before {
+    background-color: #ca8a04; /* Color de fondo cuando está marcado */
+    border-color: #ca8a04; /* Color del borde cuando está marcado */
+}
+
+.custom-checkbox::after {
+    content: "";
+    position: absolute;
+    left: 6px;
+    top: 3px;
+    width: 8px;
+    height: 14px;
+    border: solid white;
+    border-width: 0 2px 2px 0;
+    transform: rotate(45deg);
+    opacity: 0;
+    transition: opacity 0.3s;
+}
+
+input[type="checkbox"]:checked + .custom-checkbox::after {
+    opacity: 1; /* Muestra la marca de verificación cuando está marcado */
+}
+
+.clip-path-custom {
+    clip-path: polygon(0% 0%, 75% 0%, 100% 50%, 75% 100%, 0% 100%);
+    font-family: "fontChinese";
+}
+

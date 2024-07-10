@@ -3,8 +3,9 @@ CREATE TABLE "Product" (
     "id" SERIAL NOT NULL,
     "name" TEXT NOT NULL,
     "description" TEXT NOT NULL,
-    "price" DOUBLE PRECISION NOT NULL,
-    "Availability" BOOLEAN NOT NULL,
+    "fullPrice" DOUBLE PRECISION NOT NULL,
+    "halfPrice" DOUBLE PRECISION NOT NULL,
+    "availability" BOOLEAN NOT NULL,
     "image" TEXT NOT NULL,
     "categoryId" INTEGER NOT NULL,
 

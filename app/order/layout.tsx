@@ -12,7 +12,7 @@ export default function RootLayout({
         const links = linksHome
     return (
         <>
-            <Navbar links={links} pathname="/order"/>
+            <Navbar links={links} pathname="/order/rice"/>
             <div className="md:flex bg-gray-200">
                 <OrderSidebar/>
                 <main className="md:flex-1 md:h-screen md:overflow-y-scroll p-5">

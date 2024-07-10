@@ -1,3 +1,4 @@
+
 import Image from "next/image"
 import { prisma } from "@/src/lib/prisma"
 import CategoryIcon from "../Ui/CategoryIcon"
@@ -11,16 +12,17 @@ export default async function OrderSidebar() {
 
     return (
     <>
-        <aside className="orderSidebar-active md:w-72 md:h-screen bg-white overflow-hidden flex-">
-            <div className="flex ml-3 mt-5 gap-3 items-center">
+        <aside className="md:w-72 md:h-screen bg-white overflow-hidden md:overflow-y-scroll">
+            <a className="flex ml-2 mt-5 gap-3 items-center text-2xl font-bold">
                 <Image
                     height={50}
                     width={50}
                     src="/icons/categoria.png"
                     alt="Icono categorias"
                 />
-                <h2 className=" text-2xl font-black">Categorias</h2>
-            </div>
+                Categorias
+            </a>
+            
             <nav className="mt-5 flex flex-col">
                 {
                     categories.map(category => (<>

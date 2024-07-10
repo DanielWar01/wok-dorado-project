@@ -2,6 +2,7 @@ import { IconDefinition } from "@fortawesome/fontawesome-svg-core";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
 import 'animate.css';
 import Link from "next/link";
+import Image from "next/image";
 
 type SidebarProps = {
     links: {
@@ -18,7 +19,7 @@ export default function Sidebar({links, pathname} : SidebarProps) {
         
         <div className="sidebar animate__animated animate__fadeInLeftBig animate__fast fixed top-0 left-0 h-screen w-52 bg-orange-500 z-50">
             <Link href="/">
-                <img className="mt-5 rounded-full h-32 translate-x-10" src="logobg.jfif" alt="logo-wok-dorado" />
+                <Image width="128" height="128" className="mt-5 rounded-full h-32 translate-x-10" src="/logobg.jfif" alt="logo-wok-dorado" />
             </Link>
             <div className="mt-7 flex flex-col text-lg">
                 {
