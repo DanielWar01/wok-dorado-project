@@ -1,6 +1,7 @@
 import { linksHome } from "@/Data";
 import Footer from "@/components/Home/Footer";
 import Navbar from "@/components/Home/Navbar";
+import ToastNotification from "@/components/Ui/ToastNotification";
 import OrderSidebar from "@/components/order/OrderSidebar";
 import OrderSummary from "@/components/order/OrderSummary";
 
@@ -19,6 +20,7 @@ export default function RootLayout({
                     {children}
                 </main>
                 <OrderSummary/>
+                <ToastNotification/>
             </div>
             <Footer/>
         </>

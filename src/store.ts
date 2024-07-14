@@ -3,12 +3,14 @@ import { OrderItem } from "./types";
 import { Product } from "@prisma/client";
 
 
+
 interface Store {
     order : OrderItem[]
     addToCart : (product: Product, price: number) => void
     increaseQuantity : (id : Product['id'], price : number) => void
     decreaseQuantity : (id : Product['id'], price : number) => void
     deleteItem : (id : Product['id']) => void
+    clearOrder : () => void
 }
 
 export const useStore = create<Store>((set, get) => ({
@@ -34,7 +36,6 @@ export const useStore = create<Store>((set, get) => ({
                 ]
             }
         }
-
         set(() => ({
             order
         }))
@@ -66,6 +67,11 @@ export const useStore = create<Store>((set, get) => ({
         order = get().order.filter(item => item.id !== id && item.id)
         set(() => ({
             order
+        }))
+    },
+    clearOrder : () => {
+        set(() => ({
+            order: []
         }))
     }
 }))

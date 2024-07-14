@@ -7,7 +7,7 @@ export const products = [
             halfPrice: 0,
             availability: true,
             image: "el wok dorado (21)",
-            categoryId: 9,
+            categoryId: 2,
         },
         {
             name: "Menu Junior Pechuga",
@@ -16,7 +16,7 @@ export const products = [
             halfPrice: 0,
             availability: true,
             image: "el wok dorado (21)",
-            categoryId: 9,
+            categoryId: 2,
         },
         {
             name: "Menu Junior Lomo Cerdo",
@@ -25,7 +25,7 @@ export const products = [
             halfPrice: 0,
             availability: true,
             image: "el wok dorado (21)",
-            categoryId: 9,
+            categoryId: 2,
         },
         {
             name: "Menu Junior Bolitas Agridulces",
@@ -34,7 +34,7 @@ export const products = [
             halfPrice: 0,
             availability: true,
             image: "el wok dorado (21)",
-            categoryId: 9,
+            categoryId: 2,
         },
         {
             name: "Menu Junior Churrasquillo",
@@ -43,7 +43,7 @@ export const products = [
             halfPrice: 0,
             availability: true,
             image: "el wok dorado (21)",
-            categoryId: 9,
+            categoryId: 2,
         },
     
     //MENUS PERSONALES
@@ -54,7 +54,7 @@ export const products = [
             halfPrice: 0,
             availability: true,
             image: "el wok dorado (23)",
-            categoryId: 10,
+            categoryId: 3,
         },
         {
             name: "Menu Personal Trucha",
@@ -63,7 +63,7 @@ export const products = [
             halfPrice: 0,
             availability: true,
             image: "el wok dorado (23)",
-            categoryId: 10,
+            categoryId: 3,
         },
         {
             name: "Menu Personal Costillas BBQ",
@@ -72,7 +72,7 @@ export const products = [
             halfPrice: 0,
             availability: true,
             image: "el wok dorado (23)",
-            categoryId: 10,
+            categoryId: 3,
         },
         {
             name: "Menu Personal Lomo de Cerdo",
@@ -81,7 +81,7 @@ export const products = [
             halfPrice: 0,
             availability: true,
             image: "el wok dorado (23)",
-            categoryId: 10,
+            categoryId: 3,
         },
         {
             name: "Menu Personal Pechuga a la Plancha",
@@ -90,7 +90,7 @@ export const products = [
             halfPrice: 0,
             availability: true,
             image: "el wok dorado (23)",
-            categoryId: 10,
+            categoryId: 3,
         },
         {
             name: "Menu Personal Bolitas Agridulces",
@@ -99,7 +99,7 @@ export const products = [
             halfPrice: 0,
             availability: true,
             image: "el wok dorado (23)",
-            categoryId: 10,
+            categoryId: 3,
         },
         {
             name: "Menu Personal Churrasquillo",
@@ -108,7 +108,7 @@ export const products = [
             halfPrice: 0,
             availability: true,
             image: "el wok dorado (23)",
-            categoryId: 10,
+            categoryId: 3,
         },
     //ESPECIAL CAMARONES
         {
@@ -118,7 +118,7 @@ export const products = [
             halfPrice: 0,
             availability: true,
             image: "ceviche",
-            categoryId: 8,
+            categoryId: 1,
         },
         {
             name: "Camarones en Bistec",
@@ -127,7 +127,7 @@ export const products = [
             halfPrice: 0,
             availability: true,
             image: "ceviche",
-            categoryId: 8,
+            categoryId: 1,
         },
         {
             name: "Camarones Gratinados",
@@ -136,7 +136,7 @@ export const products = [
             halfPrice: 0,
             availability: true,
             image: "ceviche",
-            categoryId: 8,
+            categoryId: 1,
         },
         {
             name: "Camarones Apanados",
@@ -145,7 +145,7 @@ export const products = [
             halfPrice: 0,
             availability: true,
             image: "ceviche",
-            categoryId: 8,
+            categoryId: 1,
         },
         {
             name: "Ceviche",
@@ -154,7 +154,7 @@ export const products = [
             halfPrice: 0,
             availability: true,
             image: "ceviche",
-            categoryId: 8,
+            categoryId: 1,
         },
     // ARROZ PAISA
         {
@@ -164,7 +164,7 @@ export const products = [
             halfPrice: 0,
             availability: true,
             image: "paisa",
-            categoryId: 21,
+            categoryId: 14,
         },
         {
             name: "Arroz Paisa",
@@ -173,7 +173,7 @@ export const products = [
             halfPrice: 26000,
             availability: true,
             image: "paisa",
-            categoryId: 21,
+            categoryId: 14,
         },
         {
             name: "Combo Paisa",
@@ -182,7 +182,7 @@ export const products = [
             halfPrice: 34000,
             availability: true,
             image: "paisa",
-            categoryId: 21,
+            categoryId: 14,
         },
         {
             name: "valenciano Paisa",
@@ -191,7 +191,7 @@ export const products = [
             halfPrice: 35000,
             availability: true,
             image: "paisa",
-            categoryId: 21,
+            categoryId: 14,
         },
         {
             name: "Super Paisa",
@@ -200,7 +200,7 @@ export const products = [
             halfPrice: 50000,
             availability: true,
             image: "paisa",
-            categoryId: 21,
+            categoryId: 14,
         },
     //POLLO
         {
@@ -210,7 +210,7 @@ export const products = [
             halfPrice: 17000,
             availability: true,
             image: "el wok dorado (8)",
-            categoryId: 18,
+            categoryId: 11,
         },
         {
             name: "Combo Pollo Frito",
@@ -219,7 +219,7 @@ export const products = [
             halfPrice: 22000,
             availability: true,
             image: "el wok dorado (1)",
-            categoryId: 18,
+            categoryId: 11,
         },
        
      // CHOW FAN  
@@ -230,7 +230,7 @@ export const products = [
             halfPrice: 26000,
             availability: true,
             image: "el wok dorado (13)",
-            categoryId: 14,
+            categoryId: 7,
         },
         {
             name: "Combo Familiar",
@@ -239,7 +239,7 @@ export const products = [
             halfPrice: 37000,
             availability: true,
             image: "el wok dorado (6)",
-            categoryId: 14,
+            categoryId: 7,
         },
         {
             name: "Arroz Mixto",
@@ -248,7 +248,7 @@ export const products = [
             halfPrice: 25000,
             availability: true,
             image: "el wok dorado (13)",
-            categoryId: 14,
+            categoryId: 7,
         },
         {
             name: "Arroz Pollo",
@@ -257,7 +257,7 @@ export const products = [
             halfPrice: 25000,
             availability: true,
             image: "el wok dorado (13)",
-            categoryId: 14,
+            categoryId: 7,
         },
         {
             name: "Arroz Res y Cerdo",
@@ -266,7 +266,7 @@ export const products = [
             halfPrice: 26000,
             availability: true,
             image: "el wok dorado (13)",
-            categoryId: 14,
+            categoryId: 7,
         },
         {
             name: "Arroz Camaron",
@@ -275,7 +275,7 @@ export const products = [
             halfPrice: 32000,
             availability: true,
             image: "arrozCamaron",
-            categoryId: 14,
+            categoryId: 7,
         },
         {
             name: "Arroz Pollo Camaron",
@@ -284,7 +284,7 @@ export const products = [
             halfPrice: 32000,
             availability: true,
             image: "el wok dorado (13)",
-            categoryId: 14,
+            categoryId: 7,
         },
         {
             name: "Arroz Vegetal",
@@ -293,7 +293,7 @@ export const products = [
             halfPrice: 21000,
             availability: true,
             image: "el wok dorado (13)",
-            categoryId: 14,
+            categoryId: 7,
         },
         {
             name: "Arroz Especial",
@@ -302,7 +302,7 @@ export const products = [
             halfPrice: 31000,
             availability: true,
             image: "el wok dorado (13)",
-            categoryId: 14,
+            categoryId: 7,
         },
         {
             name: "Arroz Especial el Wok Dorado",
@@ -311,7 +311,7 @@ export const products = [
             halfPrice: 26000,
             availability: true,
             image: "el wok dorado (13)",
-            categoryId: 14,
+            categoryId: 7,
         },
     //CHOP SUEY
         {
@@ -321,7 +321,7 @@ export const products = [
             halfPrice: 25000,
             availability: true,
             image: "el wok dorado (46)",
-            categoryId: 16,
+            categoryId: 9,
         },
         {
             name: "Chop Suey Pollo",
@@ -330,7 +330,7 @@ export const products = [
             halfPrice: 25000,
             availability: true,
             image: "el wok dorado (46)",
-            categoryId: 16,
+            categoryId: 9,
         },    {
             name: "Chop Suey Res y Cerdo",
             description: "Verdura, Res y Carne",
@@ -338,7 +338,7 @@ export const products = [
             halfPrice: 25000,
             availability: true,
             image: "el wok dorado (46)",
-            categoryId: 16,
+            categoryId: 9,
         },    {
             name: "Chop Suey Camarón",
             description: "Verdura y Camaron",
@@ -346,7 +346,7 @@ export const products = [
             halfPrice: 31000,
             availability: true,
             image: "el wok dorado (46)",
-            categoryId: 16,
+            categoryId: 9,
         },    {
             name: "Chop Suey Pollo y Camaron",
             description: "Verdura, Pollo y Camaron",
@@ -354,7 +354,7 @@ export const products = [
             halfPrice: 31000,
             availability: true,
             image: "el wok dorado (46)",
-            categoryId: 16,
+            categoryId: 9,
         },
         {
             name: "Chop Suey Vegetal Especial",
@@ -363,7 +363,7 @@ export const products = [
             halfPrice: 31000,
             availability: true,
             image: "el wok dorado (46)",
-            categoryId: 16,
+            categoryId: 9,
         },
     //LO MEIN
         {
@@ -373,7 +373,7 @@ export const products = [
             halfPrice: 25000,
             availability: true,
             image: "el wok dorado (44)",
-            categoryId: 15,
+            categoryId: 8,
         },
         {
             name: "Pasta en salsa Pollo",
@@ -382,7 +382,7 @@ export const products = [
             halfPrice: 25000,
             availability: true,
             image: "el wok dorado (44)",
-            categoryId: 15,
+            categoryId: 8,
         },
         {
             name: "Pasta en salsa Res y Cerdo",
@@ -391,7 +391,7 @@ export const products = [
             halfPrice: 26000,
             availability: true,
             image: "el wok dorado (44)",
-            categoryId: 15,
+            categoryId: 8,
         },    
         {
             name: "Pasta en salsa Camaron",
@@ -400,7 +400,7 @@ export const products = [
             halfPrice: 31000,
             availability: true,
             image: "el wok dorado (44)",
-            categoryId: 15,
+            categoryId: 8,
         },    
         {
             name: "Pasta en salsa Pollo Camaron",
@@ -409,7 +409,7 @@ export const products = [
             halfPrice: 31000,
             availability: true,
             image: "el wok dorado (44)",
-            categoryId: 15,
+            categoryId: 8,
         },    
         {
             name: "Pasta en salsa Especial",
@@ -418,7 +418,7 @@ export const products = [
             halfPrice: 25000,
             availability: true,
             image: "el wok dorado (44)",
-            categoryId: 15,
+            categoryId: 8,
         },
     //CARNES
         {
@@ -428,7 +428,7 @@ export const products = [
             halfPrice: 0,
             availability: true,
             image: "el wok dorado (44)",
-            categoryId: 12,
+            categoryId: 5,
         },
         {
             name: "Churrasco al Ajillo",
@@ -437,7 +437,7 @@ export const products = [
             halfPrice: 0,
             availability: true,
             image: "el wok dorado (44)",
-            categoryId: 12,
+            categoryId: 5,
         },
         {
             name: "Churrasco Gratinado",
@@ -446,7 +446,7 @@ export const products = [
             halfPrice: 0,
             availability: true,
             image: "el wok dorado (44)",
-            categoryId: 12,
+            categoryId: 5,
         },
         {
             name: "Lomo de Cerdo a la Plancha",
@@ -455,7 +455,7 @@ export const products = [
             halfPrice: 0,
             availability: true,
             image: "el wok dorado (44)",
-            categoryId: 12,
+            categoryId: 5,
         },
         {
             name: "Lomo Cerdo al Ajillo",
@@ -464,7 +464,7 @@ export const products = [
             halfPrice: 0,
             availability: true,
             image: "el wok dorado (44)",
-            categoryId: 12,
+            categoryId: 5,
         },
         {
             name: "Lomo de Cerdo Gratinado",
@@ -473,7 +473,7 @@ export const products = [
             halfPrice: 0,
             availability: true,
             image: "el wok dorado (44)",
-            categoryId: 12,
+            categoryId: 5,
         },
         {
             name: "Lomo de Cerdo en Salsa BBQ",
@@ -482,7 +482,7 @@ export const products = [
             halfPrice: 0,
             availability: true,
             image: "el wok dorado (44)",
-            categoryId: 12,
+            categoryId: 5,
         },
         {
             name: "Pechuga a la plancha",
@@ -491,7 +491,7 @@ export const products = [
             halfPrice: 0,
             availability: true,
             image: "el wok dorado (44)",
-            categoryId: 12,
+            categoryId: 5,
         },
         {
             name: "Pechuga Gratinada",
@@ -500,7 +500,7 @@ export const products = [
             halfPrice: 0,
             availability: true,
             image: "el wok dorado (44)",
-            categoryId: 12,
+            categoryId: 5,
         },
         {
             name: "Pechuga al Ajillo",
@@ -509,7 +509,7 @@ export const products = [
             halfPrice: 0,
             availability: true,
             image: "el wok dorado (44)",
-            categoryId: 12,
+            categoryId: 5,
         },
         {
             name: "Pechuga en salsa Camaron",
@@ -518,7 +518,7 @@ export const products = [
             halfPrice: 0,
             availability: true,
             image: "el wok dorado (44)",
-            categoryId: 12,
+            categoryId: 5,
         },
         {
             name: "Pechuga en salsa de Champiñon",
@@ -527,7 +527,7 @@ export const products = [
             halfPrice: 0,
             availability: true,
             image: "el wok dorado (44)",
-            categoryId: 12,
+            categoryId: 5,
         },
         {
             name: "Costillas de Cerdo",
@@ -536,7 +536,7 @@ export const products = [
             halfPrice: 0,
             availability: true,
             image: "el wok dorado (44)",
-            categoryId: 12,
+            categoryId: 5,
         },
         {
             name: "Costillas de Cerdo en salsa BBQ",
@@ -545,7 +545,7 @@ export const products = [
             halfPrice: 0,
             availability: true,
             image: "el wok dorado (44)",
-            categoryId: 12,
+            categoryId: 5,
         },
     //PESCADOS
         {
@@ -637,7 +637,7 @@ export const products = [
             halfPrice: 0,
             availability: true,
             image: "cremaPollo",
-            categoryId: 20,
+            categoryId: 13,
         },
         {
             name: "Crema de Cebolla",
@@ -646,7 +646,7 @@ export const products = [
             halfPrice: 0,
             availability: true,
             image: "cremaCebolla",
-            categoryId: 20,
+            categoryId: 13,
         },
         {
             name: "Crema de Camaron",
@@ -655,7 +655,7 @@ export const products = [
             halfPrice: 0,
             availability: true,
             image: "cremaCamaron",
-            categoryId: 20,
+            categoryId: 13,
         },
     //ADICIONALES
         {
@@ -665,7 +665,7 @@ export const products = [
             halfPrice: 0,
             availability: true,
             image: "papas",
-            categoryId: 13,
+            categoryId: 6,
         },
         {
             name: "Bolitas Agriculces",
@@ -674,7 +674,7 @@ export const products = [
             halfPrice: 0,
             availability: true,
             image: "Bolitas",
-            categoryId: 13,
+            categoryId: 6,
         },
         {
             name: "Alitas BBQ",
@@ -683,7 +683,7 @@ export const products = [
             halfPrice: 0,
             availability: true,
             image: "alitas",
-            categoryId: 13,
+            categoryId: 6,
         },
     //BEBIDAS
         {
@@ -693,7 +693,7 @@ export const products = [
             halfPrice: 0,
             availability: true,
             image: "limonada",
-            categoryId: 17,
+            categoryId: 10,
         },
         {
             name: "Limonada Cerezada",
@@ -702,7 +702,7 @@ export const products = [
             halfPrice: 0,
             availability: true,
             image: "limonadaC",
-            categoryId: 17,
+            categoryId: 10,
         },
         {
             name: "Jugos Naturales en Agua",
@@ -711,7 +711,7 @@ export const products = [
             halfPrice: 0,
             availability: true,
             image: "jugosA",
-            categoryId: 17,
+            categoryId: 10,
         },
         {
             name: "Jugos Naturales en Leche",
@@ -720,7 +720,7 @@ export const products = [
             halfPrice: 0,
             availability: true,
             image: "jugosL",
-            categoryId: 17,
+            categoryId: 10,
         },
         {
             name: "Gaseosas",
@@ -729,6 +729,6 @@ export const products = [
             halfPrice: 0,
             availability: true,
             image: "gaseosas",
-            categoryId: 17,
+            categoryId: 10,
         },
     ]
