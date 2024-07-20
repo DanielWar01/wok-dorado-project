@@ -15,7 +15,7 @@ export default function AdminSidebar() {
         <>
 
             <div className="space-y-3">
-                <p className="mt-10 uppercase font-bold text-lg text-gray-200 text-center">Navegación</p>
+                <p className="pt-5 uppercase font-bold text-lg text-gray-200 text-center">Navegación</p>
                 <nav className="flex flex-col">
                     {
                         adminNavigation.map(link => (

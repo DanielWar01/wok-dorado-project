@@ -28,7 +28,7 @@ export default function OrderCard({order} : OrderCardProps) {
     }
     
     return (
-    <div className="card">
+    <div className="card_order">
         <div className="card_image">
             <Image width={300} height={300} src={`/products/${order.orderProducts[0].product.image}.jpg`} alt="mixed vegetable salad in a mason jar. "/>
         </div>
