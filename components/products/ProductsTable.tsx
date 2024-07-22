@@ -19,7 +19,10 @@ export default function ProductsTable({products} : ProductsTableProps) {
                                     Producto
                                 </th>
                                 <th scope="col" className="px-3 py-3.5 text-left text-lg font-semibold text-gray-900">
-                                    Precio
+                                    Precio Completo
+                                </th>
+                                <th scope="col" className="px-3 py-3.5 text-left text-lg font-semibold text-gray-900">
+                                    Precio Medio
                                 </th>
                                 <th scope="col" className="px-3 py-3.5 text-left text-lg font-semibold text-gray-900">
                                     Categoría
@@ -38,6 +41,9 @@ export default function ProductsTable({products} : ProductsTableProps) {
                                         </td>
                                         <td className="whitespace-nowrap px-3 py-4 text-sm text-gray-500">
                                             {formatCurrency(product.fullPrice)}
+                                        </td> 
+                                        <td className="whitespace-nowrap px-3 py-4 text-sm text-gray-500">
+                                            {product.halfPrice !== 0 ?formatCurrency(product.halfPrice): 'No disponible'}
                                         </td> 
                                         <td className="whitespace-nowrap px-3 py-4 text-sm text-gray-500">
                                             {product.category.name}

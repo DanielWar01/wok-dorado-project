@@ -6,14 +6,13 @@ import Image from "next/image"
 export default function Footer() {
     return (
     <footer className="flex sm:flex-row flex-col justify-evenly gap-2 bg-zinc-900 p-6 text-white">
-        <div className="footer-section flex flex-col gap-2">
+        <div className="footer-section flex flex-col">
             <div className="flex gap-4 items-center">
                 <h3 className="font-bold text-xl">ElWokDorado.com</h3>
                 <Image width={70} height={70} src="/pet.png" alt="Mascota el wok dorado"/>
             </div>
             <p>!Ya está en Duitama! Una experiencia con sabor oriental...visítanos!</p>
             <p>© 2024 El Wok Dorado. Todos los derechos reservados.</p>
-            <p>Carrera 16 # 7-105, Duitama, Colombia</p>
         </div>
         <div className="footer-section flex flex-col gap-2">
             <h3 className="font-bold text-xl">Contacto</h3>

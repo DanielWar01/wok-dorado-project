@@ -2,7 +2,7 @@
 import { Product } from "@prisma/client"
 import CustomImages from "../Home/CustomImages"
 import Image from "next/image"
-import { formatCurrency } from "@/src/utils"
+import { formatCurrency, getImagePath } from "@/src/utils"
 import "animate.css"
 import AddProductButton from "../products/AddProductButton"
 import { useState } from "react"
@@ -25,10 +25,11 @@ export default function ProductCard({product} : ProductCardProps) {
         setIsChecked({ ...isChecked, halfPrice: event.target.checked });
     };
 
+    const imagePath = getImagePath(product.image)
     return (
     <>
         <div className="rounded-lg overflow-hidden shadow-lg bg-white hover:shadow-2xl duration-500 card">
-            <CustomImages imgSrc={`/products/${product.image}.jpg`} pt="90%"/>
+            <CustomImages imgSrc={imagePath} pt="90%"/>
             <div className="info-product p-4">
                 {product.availability ? (
                     <Image className=" rounded-full bg-white shadow-md -mt-14 border-2 border-white" width={60} height={60} src="/icons/check.png" alt="available"/>

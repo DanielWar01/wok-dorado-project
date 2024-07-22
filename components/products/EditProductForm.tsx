@@ -2,14 +2,18 @@
 
 import { createProduct } from "@/actions/create-product-action";
 import { ProductSchema } from "@/src/schema";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { useRouter } from "next/navigation";
 import { toast } from "react-toastify";
-import { faPen } from "@fortawesome/free-solid-svg-icons";
+import { useParams } from "next/navigation";
+import { updateProduct } from "@/actions/update-product-action";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faPlus } from "@fortawesome/free-solid-svg-icons";
 
-export default  function AddProductForm({children} : {children : React.ReactNode}) {
-
+export default  function EditProductForm({children} : {children : React.ReactNode}) {
     const router = useRouter()
+    const params = useParams()
+    const id = +params.id!
+
     const handleSubmit = async (formData: FormData) => {
         const data = {
             name: formData.get('name'),
@@ -31,8 +35,7 @@ export default  function AddProductForm({children} : {children : React.ReactNode
             return
         }
 
-        console.log(result)
-        const response = await createProduct(data)
+        const response = await updateProduct(data, id)
         if (response?.errors){
             response.errors.forEach(issue => {
                 toast.error(issue.message)
@@ -40,22 +43,22 @@ export default  function AddProductForm({children} : {children : React.ReactNode
             return
         }
 
-        toast.success("Producto creado correctamente")
+        toast.success("Producto actualizado correctamente")
         router.push("/admin/products")
     }
 
     return (
     <>
-        <div className="bg-white mt-24 px-5 py-10 rounded-md shadow-md max-w-3xl mx-auto">
+        <div className="bg-white mt-20 px-5 py-10 rounded-md shadow-md max-w-3xl mx-auto">
             <form action={handleSubmit} className="flex flex-col gap-4">
                 {children}
                 <input
                 type="submit"
                 className="css-button-arrow--black w-full text-center"
-                value="Crear Producto"
+                value="Actualizar Producto"
                 />
+                <FontAwesomeIcon icon={faPlus} className="absolute text-white -top-2 left-full arrow-btn duration-300 opacity-0"/>
             </form>
-            <FontAwesomeIcon icon={faPen} className="absolute text-white -top-2 left-full arrow-btn duration-300 opacity-0"/>
         </div>
     </>
     );
