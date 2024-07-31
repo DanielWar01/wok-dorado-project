@@ -51,7 +51,7 @@ export default function OrderSummary() {
                         <div className="relative w-full h-10 mb-5">
                             <input type="text" name="name" required={true} className="my-2 p-3 outline-none text-xl font-bold text-neutral-800 rounded-md absolute top-0 left-0 w-full border-2 border-neutral-800 bg-transparent text__input"/>
                             <label  className=" absolute mt-5 ml-4 text-lg font-bold text-neutral-800 inline-block duration-500 bg-gray-200 label__input pointer-events-none">
-                                Tu nombre 
+                                Mesa Pedido
                             </label>
                         </div>
                         <input

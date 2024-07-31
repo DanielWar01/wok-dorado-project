@@ -1,5 +1,5 @@
 import { LinkType } from "@/Types"
-import { faHome, faList, faCircleInfo } from "@fortawesome/free-solid-svg-icons"
+import { faHome, faList } from "@fortawesome/free-solid-svg-icons"
 
 export const linksHome : LinkType[] = [
     {
@@ -11,10 +11,5 @@ export const linksHome : LinkType[] = [
         name: "Menu",
         path: "/order/rice",
         icon: faList
-    },
-    {
-        name: "About",
-        path: "/about",
-        icon: faCircleInfo
     }
 ]
