@@ -17,7 +17,7 @@ export default function AboutSection() {
         <div className=" mx-5 lg:mx-0 md:flex items-center gap-6">
             <div className="flex-1 flex flex-col gap-4">
                 <h1 className="text-4xl font-bold">Sobre nosotros</h1>
-                <p className="">Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet rem nobis expedita. Delectus dolore nihil necessitatibus dolores, consectetur ipsam neque quibusdam pariatur quos dolorum magni rerum dolor nulla, ratione ex voluptatem libero similique explicabo soluta beatae quas sed cumque veritatis doloremque. Soluta voluptatem non vel. Error soluta, alias necessitatibus voluptatem consequuntur reiciendis maiores mollitia nemo suscipit quisquam. Eum, fugiat dolorum.</p>
+                <p className="">En El Wok Dorado, creemos que la comida es más que una necesidad; es una celebración de los sentidos. Nuestro equipo de chefs, altamente capacitados y con una vasta experiencia, selecciona cuidadosamente cada ingrediente para asegurar la más alta calidad y frescura en todas nuestras creaciones. Desde los clásicos favoritos hasta las innovaciones más audaces, cada plato está diseñado para deleitar y sorprender.</p>
                 <button className=" w-40 btn-about text-white p-3 bg-orange-400 font-bold rounded-sm shadow-lg hover:bg-orange-500">Más info</button>
             </div>
             <div className="flex-1 gallery grid grid-cols-3 gap-5 mt-5">
