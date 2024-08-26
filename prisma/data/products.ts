@@ -99,7 +99,7 @@ export const products = [
             halfPrice: 0,
             availability: true,
             image: "el wok dorado (23)",
-            categoryId: 3,
+            categoryId: 2,
         },
         {
             name: "Menu Personal Churrasquillo",
